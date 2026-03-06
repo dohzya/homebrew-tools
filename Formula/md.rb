@@ -7,20 +7,20 @@ class Md < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/dohzya/tools/releases/download/md-v0.7.0/md-darwin-arm64"
-      sha256 "849dbfac96f950965dc4c7b64089e13349d315f2b6bfdb0b5eb651606cfbf6d1"
+      sha256 "f31f232e7c7c43199b6aea5e584126d183072d32e31a3856a9b55a991800f263"
     elsif Hardware::CPU.intel?
       url "https://github.com/dohzya/tools/releases/download/md-v0.7.0/md-darwin-x86_64"
-      sha256 "0956c6ba35ec2a65164d148a135d8a24b1e4b76a056ebe1829a075612d4c1d67"
+      sha256 "cd03f88398d30adcd0836b4cd777a393c618ce02c6e68efc045a7beaf5fe6252"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/dohzya/tools/releases/download/md-v0.7.0/md-linux-arm64"
-      sha256 "11038e36831a636e9f9828ea999b3183600356b01ac4b7c6f2699bd0c7603c0a"
+      sha256 "5753e70762ee983b01c1ecca919ecf1e55b3deea713c3b19d19260c6f3bdada4"
     elsif Hardware::CPU.intel?
       url "https://github.com/dohzya/tools/releases/download/md-v0.7.0/md-linux-x86_64"
-      sha256 "ee1d459ea0d644e8a7d0b307241d554d87dc9164c9ebf674f9f7f82d43441c7a"
+      sha256 "5e3b19d2384ff580f489ba5e32334a199d642ef2bd32cfc97d7f51041e529245"
     end
   end
 
